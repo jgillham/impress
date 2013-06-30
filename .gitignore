@@ -1,0 +1,11 @@
+node_modules
+components
+dist
+.tmp
+.sass-cache
+app/components
+.DS_Store
+public/img/psd
+public/img/screenshots
+extras/
+.elasticbeanstalk/
