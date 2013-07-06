@@ -6,10 +6,10 @@ impress
 <h2>
 Table of Contents
 </h2>
- - [Description](#Description)
- - [Getting Started](#Getting Started)
- - [Contributing](#Contributing)
- - [Questions](#Questions)
+ - [Description](#description)
+ - [Getting Started](#getting-started)
+ - [Contributing](#contributing)
+ - [Questions](#questions)
 
 
 <h2>
