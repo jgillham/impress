@@ -11,3 +11,4 @@ extras/
 .elasticbeanstalk/
 # Used only for testing the README.
 README.html
+results/
