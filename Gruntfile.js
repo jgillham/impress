@@ -1,7 +1,7 @@
 module.exports = function( grunt ) {
     /** Grunt plugins. **/
     grunt.loadNpmTasks('grunt-contrib-copy');
-	// TODO grunt.loadNpmTasks for each grunt plugin.
+    // TODO grunt.loadNpmTasks for each grunt plugin.
     
     /** Grunt tasks. **/
     grunt.registerTask( 'README', [ 'copy:README' ] );
@@ -9,8 +9,8 @@ module.exports = function( grunt ) {
     // TODO grunt.registerTask for each target.
     
     /** Grunt task options. **/
-	grunt.initConfig( {
-		pkg: grunt.file.readJSON( 'package.json' )
+    grunt.initConfig( {
+        pkg: grunt.file.readJSON( 'package.json' )
         ,
         copy: {
           README: {
@@ -19,6 +19,6 @@ module.exports = function( grunt ) {
             ]
           }
         }
-		// TODO task data for each task.
-	} )
+        // TODO task data for each task.
+    } )
 }
