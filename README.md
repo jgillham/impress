@@ -18,18 +18,24 @@ Table of Contents
 <h2>
 Description
 </h2>
-<b> impress </b> is a [Node.js](http://nodejs.org/) framework for real time micro bloggers. Users can post content 
+<b> Impress </b> is a [Node.js](http://nodejs.org/) framework for real time micro bloggers. Users can post content 
 and viewers can see 
-that propogate at the rate of instance messages. The framework is highly modular meaning that,
+that content propogate at the rate of instance messages. The framework is highly modular meaning that,
 although having recommended components, blogging services can elect to swap out a component for a
 prefered alternative. The framework uses RESTful API and the [MEAN stack](#mean-stack).
 
 <b>
 Why impress?
 </b>
-We saw that the current web frameworks available for microbloggers i. e. WordPress were monatomic, large, and did
-not support real-time micro blogging. <b> impress </b> tries to find a modern solution to real-time micro blogging.
 
+We saw that the current web frameworks available today for microbloggers i. e.
+WordPress were monatomic, overly engineered , and did not support real-time micro blogging. 
+<b> Impress </b> tries to find a modern solution to real-time micro blogging. Simply put,
+what would a platform like wordpress look like, had it been invented today using today’s web stack? 
+
+<b>
+Impress is our take on real-time micro-blogging. 
+</b>
 
 <h2>
 Features
@@ -71,7 +77,7 @@ Contributing
  1. Create an issue.
  2. Fork the repository.
  3. Fix the issue.
- 4. Create a poll request.
+ 4. Create a pull request.
 
 <b>
 Note:
