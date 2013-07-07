@@ -2,12 +2,13 @@ module.exports = function( grunt ) {
     /** Grunt plugins. **/
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-jslint');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
     // TODO grunt.loadNpmTasks for each grunt plugin.
     
     /** Grunt tasks. **/
     grunt.registerTask( 'README', [ 'copy:README' ] );
     grunt.registerTask( "test", [ "TODO" ] );
-    grunt.registerTask( 'check', [ 'jslint' ] );
+    grunt.registerTask( 'check', [ 'jslint', 'jshint' ] );
     // TODO grunt.registerTask for each target.
     
     /** Grunt task options. **/
@@ -46,6 +47,20 @@ module.exports = function( grunt ) {
                 log: 'results/lint.log',
                 failOnError: false,
             }
+        }
+        ,
+        // Static analysis too checks for potential bugs.
+        jshint: {
+            options: grunt.file.readJSON( '.jshintrc' )
+            ,
+            files: [
+                '*.js',
+                'src/**/*.js',
+                'test/**/*.js',
+                'public/**/*.js',
+                'routes/**/*.js',
+                'views/**/*.js'
+            ],
         }
         // TODO task data for each task.
     } )
