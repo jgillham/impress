@@ -92,8 +92,7 @@ npm test
 Questions
 </h2>
 Have questions?
-Send us an <a href = "emailto:dviramontes@gmail.com">email</a>
-
+Send us an <a href = "mailto:dviramontes@gmail.com">email</a>
 
 <h2>
 Credits
